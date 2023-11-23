@@ -53,6 +53,16 @@
         height: 71px; 
         border-bottom-left-radius: inherit;
         border-bottom-right-radius: inherit;
+
+        @include laptop{
+            grid-gap: 15px;
+            padding: 0 10px;
+        }
+
+        @include tablet{
+            grid-gap: 25px;
+            justify-items: center;
+        }
     }
 
     &__subtitle{
@@ -73,7 +83,9 @@
         align-items: center;
         grid-gap: 4px;
 
-       
+       @include small-tablet{
+        justify-self: end;
+       }
     }
 
     &__text{
@@ -107,6 +119,10 @@
             width: 100%;
             object-fit: cover;
         }
+
+        @include mobile{
+            height: 152px;
+        }
     }
 
     .h2o-main-button{
@@ -114,5 +130,13 @@
         max-width: 166px;
         width: 100%;
         height: 40px;
+
+        @include laptop{
+            margin-left: 0;
+        }
+
+        @include small-tablet{
+            justify-self: start;
+        }
     }
 }

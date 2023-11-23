@@ -1,15 +1,21 @@
-header{
+.h2o-header{
   background: linear-gradient(180deg,#090a12 19.54%,rgba(9,10,18,.5) 122.22%);
-}
+  z-index: 90;
+  position: fixed;
+  margin: 0 auto;
+  top: 0;
+  width: var(--container-width);
+  z-index: 90;
+  border-bottom: 1px solid rgba(9,64,166,.302);
 
-.h2o-header {
- 
-  position: relative;
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  grid-gap: 20px;
+  &__box{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 20px;
+    
+  }
 
   &__btns {
     display: flex;
@@ -21,6 +27,10 @@ header{
     left: 50%;
     transform: translateX(50%);
     bottom: 0;
+  }
+
+  &.sticky{
+    background: rgba(var(--bg-f),1.0);
   }
 }
 

@@ -1,5 +1,36 @@
 .h2o-info-list{
     display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(346px, 1fr));
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: clamp(16px, 2.4265vw, 33px);
+    grid-gap: clamp(15px, 2.4265vw, 33px);
+
+    @include laptop{
+        grid-gap: clamp(15px, 1.4706vw, 20px);
+    }
+
+    @include tablet{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include small-tablet{
+        grid-template-columns: 1fr;
+    }
+
+    &__item{
+        &:last-child{
+            @include tablet{
+                grid-column: 1/-1;
+                .h2o-info-card__wrapp{
+                    justify-self: end;
+                }
+                .h2o-main-button{
+                    justify-self: start;
+                }
+            }
+
+            @include small-tablet{
+                grid-column: initial;
+            }
+        }
+    }
 }

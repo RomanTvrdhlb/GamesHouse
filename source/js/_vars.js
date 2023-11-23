@@ -5,6 +5,7 @@ export default {
   htmlEl: document.documentElement,
   bodyEl: document.body,
   items: document.querySelectorAll('.h2o-timer'),
+  header: document.querySelector('header'),
 
 
   burger: document.querySelector('.h2o-burger'),
