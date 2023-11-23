@@ -1,0 +1,20 @@
+.h2o-main-winners{
+    max-width: var(--container-width);
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    padding: 16px;
+    background: rgba(var(--bg-d),1.0);
+  
+    &__title{
+        font-size: clamp(16px, 2.0588vw, 28px);
+        line-height: 125%;
+        color: rgba(var(--cl-a),1.0);
+        font-family: var(--font-family2);
+        text-transform: uppercase;
+        font-weight: 800;
+        width: clamp(90px, 11.7647vw, 160px);
+    }
+}

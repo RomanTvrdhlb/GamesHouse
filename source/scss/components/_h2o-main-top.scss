@@ -1,0 +1,31 @@
+.h2o-main-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 8px;
+
+    &__title{
+        color: rgba(var(--cl-d),1.0);
+        font-size: clamp(20px, 3.5294vw, 48px);
+        font-family: var(--font-family2);
+        line-height: normal;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    p{
+        font-size: clamp(16px, 2.0588vw, 28px);
+        letter-spacing: -1px;
+        padding-bottom: 32px;
+        color: rgba(var(--cl-e),1.0);
+        font-family: var(--font-family2);
+        line-height: 120%;
+        font-weight: 800;
+        text-align: center;
+        max-width: 80%;
+
+        @include mobile{
+            max-width: 100%;
+        }
+    }
+}

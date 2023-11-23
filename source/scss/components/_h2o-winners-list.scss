@@ -1,0 +1,14 @@
+.h2o-winners-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 20px;
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+
+    &__item{
+        display: flex;
+        width: 100%;
+    }
+}

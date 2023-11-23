@@ -1,0 +1,5 @@
+.h2o-info-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: clamp(16px, 2.4265vw, 33px);
+}

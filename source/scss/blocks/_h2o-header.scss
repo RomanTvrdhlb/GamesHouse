@@ -1,0 +1,28 @@
+header{
+  background: linear-gradient(180deg,#090a12 19.54%,rgba(9,10,18,.5) 122.22%);
+}
+
+.h2o-header {
+ 
+  position: relative;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 20px;
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+  }
+
+  .h2o-logo {
+    left: 50%;
+    transform: translateX(50%);
+    bottom: 0;
+  }
+}
+
+
+

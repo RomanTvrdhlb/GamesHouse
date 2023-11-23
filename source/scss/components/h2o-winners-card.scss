@@ -1,0 +1,61 @@
+.h2o-winners-card{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 4px;
+    }
+
+    &__title{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 120%;
+        font-family: var(--font-family);
+        color: rgba(var(--cl-a),1.0);
+        padding-bottom: 4px;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    &__image{
+        flex-shrink: 0;
+        img{
+            width: 100%;
+            max-height: 64px;
+            object-fit: cover;
+        }
+    }
+
+    &__text{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 130%;
+        font-family: var(--font-family);
+        color: rgba(var(--cl-a),1.0);
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    &__value{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 130%;
+        font-family: var(--font-family);
+        color: rgba(var(--cl-d),1.0);
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.h2o-info-section{
+    position: relative;
+    padding-bottom: clamp(25px, 2.3529vw, 32px);
+    background-color: rgba(var(--bg-e),1.0);
+ 
+   
+    &__box{
+        display: flex;
+        flex-direction: column;
+        grid-gap: clamp(25px, 2.3529vw, 32px);
+    }
+}

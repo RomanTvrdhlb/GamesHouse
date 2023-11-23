@@ -1,0 +1,58 @@
+.h2o-games-nav{
+    display: flex;
+    height: 40px;
+    overflow-x: auto;
+    width: calc(100% + (var(--container-offset) * 2));
+    grid-gap: 1px;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    &__item{
+        height: 100%;
+        width: 100%;
+
+        &--mode{
+            width: 48px;
+            flex-shrink: 0;
+        }
+    }
+
+    &__link{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg,#222b3d,#02112c);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        box-shadow: inset 0 1px 0 #09345e;
+        color: rgba(var(--cl-f),1.0);
+        font-size: 16px;
+        letter-spacing: .02em;
+        padding: 0 9px;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(0,0,0,.3);
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover{
+            background: linear-gradient(180deg,#116abc,#0e2348);
+            box-shadow: inset 0 1px 0 #315f8b;
+            color: rgba(var(--cl-a),1.0);
+            i{
+                filter: brightness(100);
+            }
+        }
+
+        &.active{
+            background: linear-gradient(180deg,#116abc,#0e2348);
+            box-shadow: inset 0 1px 0 #315f8b;
+            color: rgba(var(--cl-a),1.0);
+            i{
+                filter: brightness(100);
+            }
+        }
+    }
+}

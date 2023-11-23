@@ -1,0 +1,328 @@
+.h2o-icon{
+  
+
+  &-logo{
+    background-image: url(../img/index/logo.png);
+    width: 64px;
+    height: 64px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  &-games{
+    background-image: url(../img/sprite/icon1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+
+  &-android{
+    background-image: url(../img/sprite/android.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+
+  &-action{
+    background-image: url(../img/sprite/icon2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+
+  &-gift{
+    background-image: url(../img/sprite/icon3.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+
+  &-bonus{
+    background-image: url(../img/sprite/bonus.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+
+  &-favorite{
+    background-image: url(../img/sprite/icon4.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+
+  &-search{
+    background-image: url(../img/index/search.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+
+  &-fav{
+    background-image: url(../img/index/star.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  &-beat{
+    background-image: url(../img/index/beat.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+
+  &-net{
+    background-image: url(../img/index/net.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  &-program{
+    background-image: url(../img/sprite/program.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 62px;
+    height: 32px;
+    display: block;
+  }
+
+
+  &-play{
+    background-image: url(../img/index/play.png);
+    background-position: center  center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  &-visa{
+    background-image: url(../img/sprite/visa.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 93px;
+    height: 18px;
+    display: block;
+  }
+
+  &-piastrix{
+    background-image: url(../img/sprite/piast.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 18px;
+    display: block;
+  }
+
+  &-mir{
+    background-image: url(../img/sprite/mir.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 66px;
+    height: 18px;
+    display: block;
+  }
+
+  &-money{
+    background-image: url(../img/sprite/money.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 106px;
+    height: 18px;
+    display: block;
+  }
+
+  &-wallet{
+    background-image: url(../img/sprite/wallet.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96px;
+    height: 18px;
+    display: block;
+  }
+
+  &-btc{
+    background-image: url(../img/sprite/btc.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 81px;
+    height: 18px;
+    display: block;
+  }
+
+  &-eth{
+    background-image: url(../img/sprite/eth.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 118px;
+    height: 18px;
+    display: block;
+  }
+
+  &-novomatic{
+    background-image: url(../img/sprite/novo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 73px;
+    height: 18px;
+    display: block;
+  }
+
+  &-igrosoft{
+    background-image: url(../img/sprite/trust.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 38px;
+    height: 18px;
+    display: block;
+  }
+
+  &-netent{
+    background-image: url(../img/sprite/netent.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 51px;
+    height: 18px;
+    display: block;
+  }
+
+  &-egt{
+    background-image: url(../img/sprite/egt.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 63px;
+    height: 18px;
+    display: block;
+  }
+
+  &-go{
+    background-image: url(../img/sprite/go.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 78px;
+    height: 18px;
+    display: block;
+  }
+
+  &-oaks{
+    background-image: url(../img/sprite/oast.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 105px;
+    height: 18px;
+    display: block;
+  }
+
+  &-evoplay{
+    background-image: url(../img/sprite/evo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 93px;
+    height: 18px;
+    display: block;
+  }
+
+  &-ygg{
+    background-image: url(../img/sprite/ygg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 111px;
+    height: 18px;
+    display: block;
+  }
+
+  &-year{
+    background-image: url(../img/sprite/icon5.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    display: block;
+  }
+
+  &-norton{
+    background-image: url(../img/sprite/icon6.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 42px;
+    height: 18px;
+    display: block;
+  }
+
+  &-dmca{
+    background-image: url(../img/sprite/dmca.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 54px;
+    height: 18px;
+    display: block;
+  }
+
+  &-ecogra{
+    background-image: url(../img/sprite/egogra.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 63px;
+    height: 18px;
+    display: block;
+  }
+
+
+
+}

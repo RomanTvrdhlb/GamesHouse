@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="Ru">
+@include('partials/head.html')
+
+<body>
+  @include('partials/header.html')
+
+  <main>
+
+    <aside class="h2o-main-aside">
+      <div class="h2o-players">
+        <span class="h2o-players__title">Игроков онлайн</span>
+        <span class="h2o-players__number">1172</span>
+      </div>
+
+      <ul class="h2o-aside-nav">
+        <li class="h2o-aside-nav__item">
+          <a href="#" class="h2o-aside-nav__link">
+            <span class="h2o-aside-nav__title"><i class="h2o-icon-home"></i>Главная</span>
+          </a>
+        </li>
+        <li class="h2o-aside-nav__item">
+          <a href="#" class="h2o-aside-nav__link">
+            <span class="h2o-aside-nav__title"><i class="h2o-icon-games"></i>Игры</span>
+          </a>
+        </li>
+        <li class="h2o-aside-nav__item">
+          <a href="#" class="h2o-aside-nav__link">
+            <span class="h2o-aside-nav__title"><i class="h2o-icon-action"></i>Акции</span>
+          </a>
+        </li>
+        <li class="h2o-aside-nav__item">
+          <a href="#" class="h2o-aside-nav__link">
+            <span class="h2o-aside-nav__title"><i class="h2o-icon-tour"></i>Турниры</span>
+          </a>
+        </li>
+        <li class="h2o-aside-nav__item">
+          <a href="#" class="h2o-aside-nav__link">
+            <span class="h2o-aside-nav__title"><i class="h2o-icon-profile"></i>Профиль</span>
+          </a>
+        </li>
+        <li class="h2o-aside-nav__item">
+          <a href="#" class="h2o-aside-nav__link">
+            <span class="h2o-aside-nav__title"><i class="h2o-icon-wallet"></i>Касса</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <section class="h2o-play-section">
+      <div class="h2o-container">
+        <div class="h2o-play-section__box">
+
+          <div class="h2o-play-card">
+            <h1 class="h2o-play-card__title">Fruit Vegas</h1>
+            <div class="h2o-play-card__image">
+              <picture>
+                <source type='image/webp' srcset='img/index/vegas.webp'>
+                <img width='278' height='259' src='img/index/vegas.png' alt='image'>
+              </picture>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+              fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
+              justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
+              ac, enim.</p>
+            <div class="h2o-play-card__btns">
+              <button class="h2o-collect h2o-green-button h2o-green-button--play">Играть</button>
+              <a href="index.html" class="h2o-red-button">Назад</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  @include('partials/footer.html')
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.h2o-games-section{
+    padding-bottom: clamp(25px, 2.3529vw, 32px);
+    position: relative;
+    background-color: rgba(var(--bg-e),1.0);
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 20px;  
+        align-items: center;   
+    }
+
+    .h2o-main-top{
+        padding-top: clamp(5px, .8824vw, 12px);
+    }
+}

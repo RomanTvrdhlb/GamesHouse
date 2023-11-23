@@ -1,0 +1,28 @@
+.h2o-footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 8px;
+    padding-bottom: clamp(10px, 1.1765vw, 16px);
+    position: relative;
+
+    &::before{
+        border-bottom: 1px solid var(--br-e);
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        height: 1px;
+        width: 100vw;
+    }
+
+    &__item{
+        display: flex;   
+    }
+
+    &__icon{
+        opacity: .65;
+    }
+}
