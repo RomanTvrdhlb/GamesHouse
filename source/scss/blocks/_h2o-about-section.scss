@@ -2,6 +2,7 @@
     padding: 16px 0 clamp(32px, 3.5294vw, 48px);
     border-top: 1px solid var(--br-f);
     background-color: rgba(var(--bg-e),1.0);
+    overflow: hidden;
 
     &__box{
         display: flex;

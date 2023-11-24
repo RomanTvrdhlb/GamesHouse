@@ -1,7 +1,7 @@
 import vars from '../_vars';
-const {items} = vars;
+const {timers} = vars;
 
-items && items.forEach(function(item){  
+timers && timers.forEach(function(item){  
   const itemDate = item.getAttribute('data-time');
   const countDownDate = new Date(itemDate).getTime();
   

@@ -1,16 +1,16 @@
 .h2o-mobile-menu{
-    overflow: auto;
     position: fixed;
-    top: calc(var(--header-height) + 1px);
+    top: var(--header-height);
     left: 0;
     z-index: 100;
     transform: translateX(-110%);
     transition: all 0.4s;
     width: 100%;
-    max-width: 380px;
+    max-width: 450px;
     background-color: rgba(var(--bg-h),1.0);
-    height: 100%;
-
+    height: calc(100% - var(--header-height));
+    overflow-y: auto;
+ 
    &__wrapp{
     width: 100%;
     position: relative;
@@ -50,8 +50,8 @@
         padding: 12px 16px;
         width: 100%;
         font-size: 16px;
-        background-color: #112852;
-        border-color: #35486c transparent #040a15;
+        background-color: rgba(var(--bg-h),1.0);
+        border-color: var(--br-f) transparent var(--br-h);
         border-style: solid;
         border-width: 1px;
         height: 45px;
@@ -64,17 +64,15 @@
         }
 
         &:hover{
-            background-color: #00498e;
-            border: 1px solid #32a2f4;
+            background-color: rgba(var(--bg-l),1.0);
+            border: 1px solid var(--br-i);
             &::after{
                 opacity: 1;
             }
         }
-     
     }
    }
    
-
     &.active {
         transform: translateX(0);
     }
