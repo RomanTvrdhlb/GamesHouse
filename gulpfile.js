@@ -43,17 +43,18 @@ const ico = require('gulp-to-ico');
 // paths
 const srcFolder = './source';
 const buildFolder = './build';
+const staticFolder = './build/static';
 
 const paths = {
   srcSvg: `${srcFolder}/img/sprite/*.svg`,
   srcImgFolder: `${srcFolder}/img`,
-  buildImgFolder: `${buildFolder}/img`,
-  buildSpriteFolder: `${buildFolder}/img/sprite`,
+  buildImgFolder: `${staticFolder}/img`,
+  buildSpriteFolder: `${staticFolder}/img/sprite`,
   srcScss: `${srcFolder}/scss/**/*.scss`,
-  buildCssFolder: `${buildFolder}/css`,
+  buildCssFolder: `${staticFolder}/css`,
   srcFullJs: `${srcFolder}/js/**/*.js`,
   srcMainJs: `${srcFolder}/js/main.js`,
-  buildJsFolder: `${buildFolder}/js`,
+  buildJsFolder: `${staticFolder}/js`,
   srcPartialsFolder: `${srcFolder}/partials`,
   resourcesFolder: `${srcFolder}/resources`,
   faviconFolder: `${srcFolder}/favicon`,
@@ -236,7 +237,7 @@ const resources = () => {
   return src([
     `${paths.resourcesFolder}/**/*`
   ])
-    .pipe(dest(buildFolder))
+    .pipe(dest(staticFolder))
 }
 
 const images = () => {

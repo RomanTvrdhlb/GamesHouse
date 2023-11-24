@@ -4,9 +4,11 @@
   position: fixed;
   margin: 0 auto;
   top: 0;
-  width: var(--container-width);
+  max-width: var(--container-width);
   z-index: 90;
   border-bottom: 1px solid rgba(9,64,166,.302);
+  width: 100%;
+ 
 
   &__box{
     height: 70px;
@@ -14,7 +16,14 @@
     justify-content: space-between;
     align-items: center;
     grid-gap: 20px;
-    
+    position: relative;
+    width: 100%;
+
+    .h2o-header-nav{
+      @include tablet{
+          display: none;
+      }
+    }
   }
 
   &__btns {
@@ -25,8 +34,26 @@
 
   .h2o-logo {
     left: 50%;
-    transform: translateX(50%);
-    bottom: 0;
+    transform: translateX(-50%);
+    bottom: 2px;
+    position: absolute;
+  }
+
+  .h2o-blue-button{
+    i{
+      display: none;
+    }
+    @include tablet{
+      i{
+        display: block;
+      }
+      font-size: 0;
+      min-width: initial;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      padding: 0;
+    }
   }
 
   &.sticky{

@@ -16,7 +16,7 @@
     p{
         font-size: clamp(16px, 2.0588vw, 28px);
         letter-spacing: -1px;
-        padding-bottom: 32px;
+        padding-bottom: clamp(5px, 2.3529vw, 32px);
         color: rgba(var(--cl-e),1.0);
         font-family: var(--font-family2);
         line-height: 120%;

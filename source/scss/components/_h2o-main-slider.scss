@@ -182,6 +182,10 @@
     grid-gap: 20px;
     bottom: 32px;
 
+    @include tablet{
+      left: 16px;
+    }
+
     @include small-tablet{
         display: none;
     }

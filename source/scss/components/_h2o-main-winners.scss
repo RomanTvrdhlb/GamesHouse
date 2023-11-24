@@ -4,10 +4,18 @@
     width: 100%;
     display: flex;
     align-items: center;
-    grid-gap: 16px;
+    grid-gap: 10px 16px;
     padding: 16px;
     background: rgba(var(--bg-d),1.0);
-  
+
+    @include tablet{
+        flex-direction: column;
+    }
+
+    @include small-tablet{
+        overflow: hidden;
+    }
+    
     &__title{
         font-size: clamp(16px, 2.0588vw, 28px);
         line-height: 125%;
@@ -16,5 +24,10 @@
         text-transform: uppercase;
         font-weight: 800;
         width: clamp(90px, 11.7647vw, 160px);
+
+        @include tablet{
+            width: 100%;
+            text-align: center;
+        } 
     }
 }

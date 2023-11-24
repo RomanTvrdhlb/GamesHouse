@@ -253,6 +253,16 @@
     display: block;
   }
 
+  &-login{
+    background-image: url(../img/sprite/login.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+
   &-oaks{
     background-image: url(../img/sprite/oast.svg);
     background-position: center center;
