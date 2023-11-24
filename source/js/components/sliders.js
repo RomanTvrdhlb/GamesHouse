@@ -6,5 +6,5 @@ slider && new Splide( slider, {
   type   : 'loop',
   perPage: 1,
   speed:400,
-  // autoplay: true,
+  autoplay: true,
 } ).mount();

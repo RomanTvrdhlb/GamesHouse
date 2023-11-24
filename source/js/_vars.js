@@ -10,6 +10,8 @@ export default {
   mobileMenu: document.querySelector('.h2o-mobile-menu'),
   burger: document.querySelector('.h2o-burger'),
   slider: document.querySelector('.splide'),
+  accParrent: [...document.querySelectorAll('[data-accordion-init]')],
+  
 }
 
 

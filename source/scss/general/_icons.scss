@@ -253,6 +253,16 @@
     display: block;
   }
 
+  &-acc{
+    background-image: url(../img/sprite/arrow.svg);
+    background-position: center  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 14px;
+    display: block;
+  }
+
   &-login{
     background-image: url(../img/sprite/login.svg);
     background-position: center center;
@@ -332,7 +342,4 @@
     height: 18px;
     display: block;
   }
-
-
-
 }
