@@ -30,6 +30,12 @@
     display: flex;
     align-items: center;
     grid-gap: 16px;
+
+    @include mobile{
+      .h2o-green-button{
+        display: none;
+      }
+    }
   }
 
   .h2o-logo {

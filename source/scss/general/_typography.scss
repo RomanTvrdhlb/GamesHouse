@@ -135,10 +135,32 @@
   }
 }
 
-// ol:not([class]){
+.h2o-main-list{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 5px;
+  counter-reset: li;
 
-// }
+  &__item{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 20px;
+    grid-gap: 10px;
 
+    &::before{
+      position: absolute;
+      left: 0;
+      top: -3px;
+      content: counters(li, '') '.';
+      counter-increment: li;
+      font-size: 16px;
+      font-family: var(--font-family2);
+      font-weight: 800;
+      color: rgba(var(--cl-a),1.0);
+    }
+  }
+}
 
 
 
